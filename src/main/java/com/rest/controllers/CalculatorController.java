@@ -13,6 +13,11 @@ import com.rest.beans.ApiResponse;
 import com.rest.beans.Calculator;
 import com.rest.constants.RestAPIConstants;
 
+/**
+ * @author Anish
+ * These REST services take two parameters from the request and provide the sum of numbers
+ * Available as GET & POST
+ */
 @RestController
 public class CalculatorController {
 	

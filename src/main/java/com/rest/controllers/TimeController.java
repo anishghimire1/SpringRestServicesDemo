@@ -12,6 +12,10 @@ import com.rest.beans.CurrentTime;
 import com.rest.constants.RestAPIConstants;
 import com.rest.service.TimeService;
 
+/**
+ * @author Anish
+ * This API provides current time and timezone in json format using Wait-Time-API service
+ */
 @RestController
 public class TimeController {
 	
