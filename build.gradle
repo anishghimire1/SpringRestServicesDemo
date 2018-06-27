@@ -9,6 +9,9 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'application'
+
+mainClassName='com.rest.calculator.SpringRestCalculatorApplication'
 
 group = 'com.spring.rest'
 version = '1.0.0-SNAPSHOT'
@@ -20,8 +23,6 @@ targetCompatibility = 1.8
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
 }
-
-
 
 repositories {
         
